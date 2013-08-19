@@ -8,6 +8,6 @@ target_dir=${1:-"."}
  if [[ -d "./.baseline" ]]; then
    echo "Baseline project already created."
  else
-   git clone https://github.com/bltavares/vagrant-baseline.git .baseline
+   git clone https://github.com/coreyhaines/vagrant-baseline.git .baseline
  fi
 )
